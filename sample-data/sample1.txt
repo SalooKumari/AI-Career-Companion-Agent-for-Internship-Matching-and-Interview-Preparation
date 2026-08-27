@@ -1,0 +1,17 @@
+JOHN DOE
+john.doe@email.com | (123) 456-7890 | San Francisco
+
+EDUCATION
+UC Berkeley, BS Computer Science, 2022-2026
+GPA: 3.8
+
+SKILLS
+Python, Java, React, Node.js, Docker
+
+EXPERIENCE
+TechCorp | Software Intern | June 2025 - Aug 2025
+- Developed APIs using Python
+- Improved performance by 40%
+
+PROJECTS
+Portfolio Website | React, Next.js
