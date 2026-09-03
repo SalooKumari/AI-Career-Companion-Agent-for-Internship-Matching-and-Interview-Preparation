@@ -4,7 +4,7 @@
 
 | Layer | Technology | Purpose |
 |-------|------------|---------|
-| **Presentation Layer** | React / Next.js | Student user interface |
+| **Presentation Layer** | Streamlit | Student user interface |
 | **API Layer** | FastAPI | Backend REST API framework |
 | **Resume Processing** | PDF/DOCX Parser, Text Cleaning | Extract raw text from resumes |
 | **LLM Layer** | OpenAI GPT-4 / Anthropic Claude | Resume information extraction |
