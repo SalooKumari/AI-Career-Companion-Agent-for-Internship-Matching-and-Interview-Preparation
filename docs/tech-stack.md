@@ -7,7 +7,7 @@
 | **Presentation Layer** | Streamlit | Student user interface |
 | **API Layer** | FastAPI | Backend REST API framework |
 | **Resume Processing** | PDF/DOCX Parser, Text Cleaning | Extract raw text from resumes |
-| **LLM Layer** | OpenAI GPT-4 / Anthropic Claude | Resume information extraction |
+| **LLM Layer** | OpenAI / Anthropic Claude | Resume information extraction |
 | **Database** | PostgreSQL | Store student profiles and data |
 | **Storage** | Cloud/File Storage (AWS S3) | Store uploaded resume files |
 | **Future Components** | RAG Pipeline, LangChain | Internship matching, interview prep |
@@ -15,7 +15,7 @@
 ## Detailed Layer Description
 
 ### 1. Presentation Layer
-- **React / Next.js**: Frontend framework for student interface
+- **Streamlit**: Frontend framework for student interface
 - Responsive design for desktop and mobile
 - Resume upload drag-and-drop functionality
 
@@ -31,7 +31,7 @@
 - Output: Clean raw resume text ready for LLM
 
 ### 4. LLM Layer
-- **OpenAI GPT-4** or **Anthropic Claude**
+- **OpenAI ** or **Anthropic Claude**
 - Extract structured information from resume text
 - Output: Structured JSON with education, skills, experience, projects
 - Validation: Data quality checks
