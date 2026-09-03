@@ -6,7 +6,7 @@
 graph TB
     subgraph "Presentation Layer"
         Student[Student/User]
-        UI[React/Next.js Frontend]
+        UI[Streamlit Frontend]
     end
 
     subgraph "API Layer"
