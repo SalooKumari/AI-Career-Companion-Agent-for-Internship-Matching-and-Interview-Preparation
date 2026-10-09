@@ -350,3 +350,15 @@ token (from a `/auth/login` response) to test protected endpoints directly.
   the reasoning is the same in both docs, and both are designed to be
   swapped for a real external dataset later without touching the code that
   reads them, if that's ever wanted.
+
+
+## Submission Details
+
+- **GitHub Repository:** [Link](https://github.com/SalooKumari/AI-Career-Companion-Agent-for-Internship-Matching-and-Interview-Preparation)
+- **System Architecture:** See [docs/architecture.md](docs/architecture.md)
+- **Tech Stack:** 
+  - Backend: Python, FastAPI, SQLAlchemy
+  - Frontend: React
+  - Database: PostgreSQL / SQLite
+  - LLM: Groq API
+  - RAG: Vector store + embeddings
