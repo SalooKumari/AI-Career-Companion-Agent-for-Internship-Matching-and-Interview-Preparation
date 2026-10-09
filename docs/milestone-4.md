@@ -51,4 +51,4 @@
 - Final demo
 
 ## Status
-🚧 In Progress / ✅ Completed
+✅ Completed
