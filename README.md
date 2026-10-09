@@ -316,7 +316,7 @@ Full interactive docs (with request/response schemas) are auto-generated at
 `/docs` once the server is running. Click **Authorize** there and paste a
 token (from a `/auth/login` response) to test protected endpoints directly.
 
-## Notes for the next milestone
+## Notes for the milestones
 
 - All agents through Milestone 3 are now implemented: Resume Agent (M1),
   Job-Resume Matching Agent (M2), Interview Agent / AI Chat Bot (app layer),
