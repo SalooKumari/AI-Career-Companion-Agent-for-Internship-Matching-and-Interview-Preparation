@@ -1,0 +1,16 @@
+Priya Nair
+priya.nair.dev@example.com
+
+Education
+B.Sc Statistics, University of Delhi, 2023-2026
+
+Skills
+Python (pandas, numpy, matplotlib), SQL, Excel, basic R
+
+Projects
+- Analyzed a public dataset of city bus ridership to identify peak hours
+  and underused routes; presented findings to the college data club.
+- Built a simple dashboard in Python (Streamlit) to visualize personal
+  expense data from a mock dataset.
+
+Note: This is my first resume, no internship experience yet.

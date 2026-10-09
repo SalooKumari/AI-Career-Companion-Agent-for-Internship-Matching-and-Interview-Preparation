@@ -1,0 +1,23 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+dist/
+build/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+
+# Uploaded resumes (local dev storage)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS/editor
+.DS_Store
+.vscode/*
+!.vscode/settings.json

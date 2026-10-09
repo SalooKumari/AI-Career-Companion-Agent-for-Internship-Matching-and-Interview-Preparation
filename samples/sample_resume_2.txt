@@ -1,0 +1,32 @@
+ROHAN MEHTA
+rohan.mehta99@example.com | Bengaluru, India
+
+--- ABOUT ---
+Third-year Electronics and Communication Engineering student interested in
+embedded systems and IoT.
+
+--- EDUCATION ---
+National Institute of Technology, Surathkal
+B.Tech, Electronics and Communication Engineering
+Expected graduation: 2027
+
+--- TECHNICAL SKILLS ---
+C, Embedded C, Python, MATLAB, Arduino, Raspberry Pi, KiCad, Altium Designer
+
+--- WORK EXPERIENCE ---
+Hardware Intern - Sensewave Robotics, May 2025 to July 2025
+Worked on firmware for a battery management system used in a small delivery
+robot prototype; assisted senior engineers with PCB testing.
+
+Teaching Assistant - NITK Dept. of ECE, Jan 2025 to present
+Assist first-year students with lab sessions on digital logic design.
+
+--- PROJECTS ---
+Smart Irrigation Controller
+Built a soil-moisture-based irrigation controller using Arduino and a
+solenoid valve, cutting water usage in a small test plot by an estimated
+30% compared to manual watering. (github.com/rohanmehta/smart-irrigation)
+
+Line-Following Robot
+A PID-controlled line-following robot built for the college robotics club
+showcase.

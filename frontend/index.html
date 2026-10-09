@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Intense Find</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============================= AUTH SCREEN ============================= -->
+<div id="authScreen" class="auth-screen">
+
+  <div class="auth-left">
+    <div class="auth-logo">
+      <div class="auth-logo-icon">IF</div>
+      <div class="auth-logo-text">Intense Find</div>
+    </div>
+
+    <div class="auth-hero-block">
+      <p class="auth-eyebrow">CAREER MATCHING PLATFORM</p>
+      <h1 class="auth-hero">Match smarter.<br />Apply faster.</h1>
+      <p class="auth-hero-sub">Upload your resume, get AI-ranked internship matches, and see exactly why each one fits — all in one place.</p>
+    </div>
+
+    <div class="auth-features-row">
+      <div class="auth-feature">
+        <span class="auth-feature-title">Smart Matching</span>
+        <span class="auth-feature-sub">AI-ranked internships for you</span>
+      </div>
+      <div class="auth-feature">
+        <span class="auth-feature-title">Resume Parsing</span>
+        <span class="auth-feature-sub">Skills extracted automatically</span>
+      </div>
+      <div class="auth-feature">
+        <span class="auth-feature-title">AI Reasoning</span>
+        <span class="auth-feature-sub">Know exactly why a role fits</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="auth-right">
+    <div class="auth-card">
+
+      <p class="auth-eyebrow-small" id="authEyebrowSmall">WELCOME BACK</p>
+      <h2 class="auth-title" id="authTitle">Sign in to your account</h2>
+      <p class="auth-subtitle" id="authSubtitleText">Enter your credentials to continue to Intence Find.</p>
+
+      <form id="loginForm" class="auth-form">
+        <label class="field">
+          <span>Email address</span>
+          <input type="email" id="loginEmail" placeholder="you@example.com" required />
+        </label>
+        <label class="field">
+          <span>Password</span>
+          <div class="password-row">
+            <input type="password" id="loginPassword" required />
+            <button type="button" class="eye-btn" data-target="loginPassword" aria-label="Show password">👁</button>
+          </div>
+        </label>
+        <button type="submit" class="btn-primary btn-block">Sign in →</button>
+        <p class="feedback" id="loginFeedback"></p>
+      </form>
+
+      <form id="registerForm" class="auth-form" hidden>
+        <label class="field">
+          <span>Full name</span>
+          <input type="text" id="registerName" placeholder="Ananya Sharma" required />
+        </label>
+        <label class="field">
+          <span>Email address</span>
+          <input type="email" id="registerEmail" placeholder="you@example.com" required />
+        </label>
+        <label class="field">
+          <span>Password <em>(min. 6 characters)</em></span>
+          <div class="password-row">
+            <input type="password" id="registerPassword" minlength="6" required />
+            <button type="button" class="eye-btn" data-target="registerPassword" aria-label="Show password">👁</button>
+          </div>
+        </label>
+        <button type="submit" class="btn-primary btn-block">Create account →</button>
+        <p class="feedback" id="registerFeedback"></p>
+      </form>
+
+      <p class="auth-switch" id="switchLoginText">Don't have an account? <button type="button" id="tabRegister" class="link-btn">Create an account</button></p>
+      <p class="auth-switch" id="switchRegisterText" hidden>Already have an account? <button type="button" id="tabLogin" class="link-btn">Sign in</button></p>
+
+      <div class="auth-status" id="apiStatus">
+        <span class="status-dot" id="statusDot"></span>
+        <span id="statusText">checking backend…</span>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<!-- ============================= APP SHELL ============================= -->
+<div id="appShell" class="app-shell" hidden>
+
+  <aside class="sidebar">
+    <div class="sidebar-mark">Intense<br />Find</div>
+
+    <nav class="sidebar-nav">
+      <button class="nav-item active" data-view="profile" type="button">
+        <span class="nav-index"></span>
+        <span>Student Profile</span>
+      </button>
+      <button class="nav-item" data-view="resume" type="button">
+        <span class="nav-index"></span>
+        <span>Upload Resume &amp; Parse</span>
+      </button>
+      <button class="nav-item" data-view="matches" type="button">
+        <span class="nav-index"></span>
+        <span>Find Matching Internships and Jobs</span>
+      </button>
+      <button class="nav-item" data-view="applications" type="button">
+        <span class="nav-index"></span>
+        <span>Applied Internships</span>
+      </button>
+      <button class="nav-item" data-view="interview" type="button">
+        <span class="nav-index"></span>
+        <span>AI Chat Bot</span>
+      </button>
+      <button class="nav-item" data-view="interview-history" type="button">
+        <span class="nav-index"></span>
+        <span>My Mock Interviews</span>
+      </button>
+      <button class="nav-item" data-view="toolkit" type="button">
+        <span class="nav-index"></span>
+        <span>Application Toolkit</span>
+      </button>
+      <button class="nav-item" data-view="chat" type="button">
+        <span class="nav-index"></span>
+        <span>Career Assistant</span>
+      </button>
+    </nav>
+
+    <div class="sidebar-user">
+      <div class="user-avatar" id="sidebarAvatar">?</div>
+      <div class="user-name" id="sidebarUserName">—</div>
+      <button class="btn-logout" id="logoutBtn" type="button">Log out</button>
+    </div>
+  </aside>
+
+  <main class="dashboard">
+
+    <header class="dashboard-topbar">
+      <div class="topbar-spacer"></div>
+      <div class="topbar-actions">
+        <button class="topbar-btn" id="savedJobsBtn" type="button" aria-label="Saved internships">
+          <span class="topbar-icon">🔖</span>
+          <span>Saved</span>
+        </button>
+        <button class="topbar-btn" id="notificationsBtn" type="button" aria-label="Notifications">
+          <span class="topbar-icon">🔔</span>
+          <span>Notifications</span>
+          <span class="notif-badge" id="notifBadge" hidden>0</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ---------------- DASHBOARD 01: PROFILE ---------------- -->
+    <section class="dashboard-view" id="view-profile">
+      <h1>Student Profile</h1>
+      <p class="view-hint">This is the record every agent — matching, and later gap analysis, cover letters, and interview prep — reads from. Keep it current.</p>
+
+      <div class="profile-layout">
+        <div class="photo-block">
+          <div class="photo-preview" id="photoPreview">?</div>
+          <label class="file-drop small">
+            <input type="file" id="photoInput" accept=".jpg,.jpeg,.png,.webp" />
+            <span>Change photo</span>
+          </label>
+        </div>
+
+        <form id="profileForm" class="form-grid">
+          <label class="field">
+            <span>Full name</span>
+            <input type="text" id="profileName" required />
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" id="profileEmail" disabled />
+          </label>
+          <label class="field">
+            <span>Phone</span>
+            <input type="tel" id="profilePhone" placeholder="+91 90000 00000" />
+          </label>
+          <button type="submit" class="btn-primary">Save changes</button>
+        </form>
+      </div>
+      <p class="feedback" id="profileFeedback"></p>
+
+      <div class="output-block">
+        <h3>Skills</h3>
+        <p class="view-hint small">Edited here, or filled in automatically when you parse a resume on Dashboard 02.</p>
+        <div class="tag-list editable" id="skillsEditor"></div>
+        <div class="skill-add-row">
+          <input type="text" id="newSkillInput" placeholder="Add a skill and press Enter…" />
+        </div>
+      </div>
+
+      <div class="output-block">
+        <h3>Education</h3>
+        <ul class="entry-list" id="educationList"></ul>
+      </div>
+      <div class="output-block">
+        <h3>Experience</h3>
+        <ul class="entry-list" id="experienceList"></ul>
+      </div>
+      <div class="output-block">
+        <h3>Projects</h3>
+        <ul class="entry-list" id="projectsList"></ul>
+      </div>
+    </section>
+
+    <!-- ---------------- DASHBOARD 02: RESUME & PARSE ---------------- -->
+    <section class="dashboard-view" id="view-resume" hidden>
+      <h1>Upload Resume &amp; Parse</h1>
+      <p class="view-hint">PDF, DOCX, or TXT, max 5 MB. We extract the raw text, then ask the LLM to structure your skills, education, experience, and projects.</p>
+
+      <form id="resumeForm" class="upload-row">
+        <label class="file-drop" id="fileDrop">
+          <input type="file" id="resumeFile" accept=".pdf,.docx,.txt" required />
+          <span id="fileLabel">Choose a resume file…</span>
+        </label>
+        <button type="submit" class="btn-primary" id="uploadBtn">Upload</button>
+      </form>
+      <p class="feedback" id="resumeFeedback"></p>
+
+      <button class="btn-primary" id="parseBtn" disabled>Parse resume</button>
+      <p class="feedback" id="parseFeedback"></p>
+    </section>
+
+    <!-- ---------------- DASHBOARD 03: FIND MATCHES ---------------- -->
+    <section class="dashboard-view" id="view-matches" hidden>
+      <h1>Find Matching Internships and Jobs</h1>
+      <p class="view-hint">Search the internship knowledge base yourself, or let the Matching Agent rank postings against your profile with reasoning.</p>
+
+      <div class="search-row">
+        <input type="text" id="jobSearchInput" placeholder="Search e.g. &quot;machine learning internship using Python&quot;" />
+        <button class="btn-primary" id="jobSearchBtn" type="button">Search</button>
+      </div>
+      <p class="feedback" id="searchFeedback"></p>
+      <div id="searchResults" class="job-card-list"></div>
+
+      <div class="section-divider"></div>
+
+      <div class="matches-header">
+        <h2>AI-ranked matches for your profile</h2>
+        <button class="btn-primary" id="findMatchesBtn" type="button">Find my matches</button>
+      </div>
+      <p class="feedback" id="matchesFeedback"></p>
+      <div id="matchResults" class="job-card-list"></div>
+    </section>
+
+    <!-- ---------------- DASHBOARD 04: APPLIED INTERNSHIPS ---------------- -->
+    <section class="dashboard-view" id="view-applications" hidden>
+      <h1>Applied Internships</h1>
+      <p class="view-hint" id="applicationsCount">You haven't applied to any internships yet.</p>
+      <div class="status-filter-row" id="applicationsFilterRow">
+        <button class="status-filter-btn active" data-status-filter="" type="button">All</button>
+        <button class="status-filter-btn" data-status-filter="applied" type="button">Applied</button>
+        <button class="status-filter-btn" data-status-filter="under_review" type="button">Under Review</button>
+        <button class="status-filter-btn" data-status-filter="shortlisted" type="button">Shortlisted</button>
+        <button class="status-filter-btn" data-status-filter="interview_scheduled" type="button">Interview Scheduled</button>
+        <button class="status-filter-btn" data-status-filter="interview_completed" type="button">Interview Completed</button>
+        <button class="status-filter-btn" data-status-filter="offer_received" type="button">Offer Received</button>
+        <button class="status-filter-btn" data-status-filter="rejected" type="button">Rejected</button>
+        <button class="status-filter-btn" data-status-filter="withdrawn" type="button">Withdrawn</button>
+      </div>
+      <div class="applications-search-row">
+        <input type="text" id="applicationsSearchInput" placeholder="Search by company or role…" />
+        <select id="applicationsSortSelect">
+          <option value="applied_at">Sort: Applied date</option>
+          <option value="deadline">Sort: Deadline</option>
+          <option value="interview_date">Sort: Interview date</option>
+        </select>
+      </div>
+      <div class="stats-row" id="applicationsStatsRow"></div>
+      <div id="applicationsList" class="job-card-list"></div>
+    </section>
+
+    <!-- ---------------- DASHBOARD 05: AI CHAT BOT (MOCK INTERVIEW) ---------------- -->
+    <section class="dashboard-view" id="view-interview" hidden>
+      <h1>AI Chat Bot</h1>
+      <p class="view-hint">Practice for a specific internship you're targeting, or do general domain practice — either way, answer by voice, then get AI feedback on what's strong, what to improve (and why), plus concrete resources to work on each gap.</p>
+
+      <div id="interviewStart" class="interview-start">
+        <label class="field" style="max-width: 360px;">
+          <span>Practice for a specific internship (optional)</span>
+          <select id="interviewJobSelect">
+            <option value="">General practice — pick a domain below instead</option>
+          </select>
+        </label>
+        <label class="field" style="max-width: 360px;">
+          <span>Interview domain <em>(used only for general practice)</em></span>
+          <select id="interviewDomainSelect">
+            <option value="">Auto-detect from my matches</option>
+          </select>
+        </label>
+        <button type="button" class="btn-primary" id="startInterviewBtn">Start mock interview</button>
+        <p class="feedback" id="interviewStartFeedback"></p>
+      </div>
+
+      <div id="interviewRoom" class="interview-room" hidden>
+
+        <div class="interview-chat-pane">
+          <div class="chat-log" id="chatLog"></div>
+        </div>
+
+        <div class="interview-control-pane">
+          <div class="interview-progress">
+            <span id="interviewProgressText">Question 1 / 25</span>
+            <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+          </div>
+
+          <div class="mic-control">
+            <button type="button" class="mic-btn" id="micBtn" aria-label="Record answer">🎙️</button>
+            <p class="mic-hint" id="micHint">Tap to speak your answer</p>
+          </div>
+
+          <label class="field">
+            <span>Your answer (edit if needed)</span>
+            <textarea id="answerText" rows="5" placeholder="Your transcribed answer will appear here — or just type it."></textarea>
+          </label>
+
+          <div class="interview-nav-buttons">
+            <button type="button" class="btn-secondary" id="skipQuestionBtn">Skip</button>
+            <button type="button" class="btn-primary" id="nextQuestionBtn">Save &amp; Next →</button>
+          </div>
+
+          <button type="button" class="btn-primary btn-block" id="submitInterviewBtn" hidden>Submit for AI Feedback</button>
+          <p class="feedback" id="interviewRoomFeedback"></p>
+        </div>
+
+      </div>
+
+      <div id="interviewFeedbackPanel" class="interview-feedback-panel" hidden>
+        <h2>Your Feedback</h2>
+        <div class="feedback-score" id="feedbackScore"></div>
+        <div class="output-block">
+          <h3>Strengths</h3>
+          <ul class="entry-list" id="feedbackStrengths"></ul>
+        </div>
+        <div class="output-block">
+          <h3>Areas to improve</h3>
+          <ul class="entry-list" id="feedbackImprovements"></ul>
+        </div>
+        <div class="output-block">
+          <h3>Personalized recommendations</h3>
+          <p class="entry-desc" id="feedbackRecommendations"></p>
+        </div>
+        <button type="button" class="btn-primary" id="startAnotherBtn">Start another mock interview</button>
+      </div>
+    </section>
+
+    <!-- ---------------- DASHBOARD 06: MY MOCK INTERVIEWS (HISTORY) ---------------- -->
+    <section class="dashboard-view" id="view-interview-history" hidden>
+      <h1>My Mock Interviews</h1>
+      <p class="view-hint">Every mock interview you've completed — revisit your answers and feedback anytime to revise.</p>
+      <div id="interviewHistoryList" class="job-card-list"></div>
+
+      <div id="interviewHistoryDetail" class="interview-feedback-panel" hidden>
+        <button type="button" class="btn-secondary" id="backToHistoryBtn">← Back to list</button>
+        <h2 id="historyDetailTitle"></h2>
+        <div class="feedback-score" id="historyDetailScore"></div>
+        <div class="output-block">
+          <h3>Strengths</h3>
+          <ul class="entry-list" id="historyDetailStrengths"></ul>
+        </div>
+        <div class="output-block">
+          <h3>Areas to improve</h3>
+          <ul class="entry-list" id="historyDetailImprovements"></ul>
+        </div>
+        <div class="output-block">
+          <h3>Personalized recommendations</h3>
+          <p class="entry-desc" id="historyDetailRecommendations"></p>
+        </div>
+        <div class="output-block">
+          <h3>Full transcript</h3>
+          <div class="chat-log" id="historyDetailTranscript"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------- DASHBOARD 07: APPLICATION TOOLKIT ---------------- -->
+    <section class="dashboard-view" id="view-toolkit" hidden>
+      <h1>Application Toolkit</h1>
+      <p class="view-hint">Pick an internship you've matched with or applied to, then work through skill-gap analysis, a tailored resume and cover letter, and role-specific interview prep — all grounded in that one posting.</p>
+
+      <label class="field" style="max-width: 480px;">
+        <span>Internship</span>
+        <select id="toolkitJobSelect">
+          <option value="">Choose from your matches or applications…</option>
+        </select>
+      </label>
+      <p class="feedback" id="toolkitJobFeedback"></p>
+
+      <div id="toolkitBody" class="toolkit-body" hidden>
+
+        <div class="subtab-row">
+          <button type="button" class="subtab active" data-subtab="gap">Skill Gap</button>
+          <button type="button" class="subtab" data-subtab="resume">Tailored Resume</button>
+          <button type="button" class="subtab" data-subtab="cover">Cover Letter</button>
+          <button type="button" class="subtab" data-subtab="prep">Interview Prep</button>
+        </div>
+
+        <!-- SKILL GAP -->
+        <div class="subtab-panel" id="subtab-gap">
+          <button type="button" class="btn-primary" id="analyzeGapBtn">Analyze skill gap</button>
+          <p class="feedback" id="gapFeedback"></p>
+
+          <div id="gapOutput" class="toolkit-output" hidden>
+            <div class="output-block">
+              <h3>Critical gaps</h3>
+              <ul class="entry-list" id="gapCritical"></ul>
+            </div>
+            <div class="output-block">
+              <h3>Partially demonstrated</h3>
+              <ul class="entry-list" id="gapPartial"></ul>
+            </div>
+            <div class="output-block">
+              <h3>Preferred (nice-to-have) gaps</h3>
+              <ul class="entry-list" id="gapPreferred"></ul>
+            </div>
+            <div class="output-block">
+              <h3>Experience gaps</h3>
+              <div class="tag-list" id="gapExperience"></div>
+            </div>
+            <div class="output-block">
+              <h3>Qualification gaps</h3>
+              <div class="tag-list" id="gapQualification"></div>
+            </div>
+            <div class="output-block">
+              <h3>Recommendations to close the gaps</h3>
+              <ul class="entry-list" id="gapRecommendations"></ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- TAILORED RESUME -->
+        <div class="subtab-panel" id="subtab-resume" hidden>
+          <button type="button" class="btn-primary" id="generateResumeBtn">Generate tailored resume</button>
+          <p class="feedback" id="resumeGenFeedback"></p>
+
+          <div id="resumeOutput" class="toolkit-output" hidden>
+            <label class="field">
+              <span>Tailored resume — edit freely, then save</span>
+              <textarea id="tailoredResumeText" rows="18"></textarea>
+            </label>
+            <div class="toolkit-actions">
+              <button type="button" class="btn-primary" id="saveResumeBtn">Save changes</button>
+              <button type="button" class="btn-secondary" id="downloadResumeBtn">Download as .txt</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- COVER LETTER -->
+        <div class="subtab-panel" id="subtab-cover" hidden>
+          <button type="button" class="btn-primary" id="generateCoverBtn">Generate cover letter</button>
+          <p class="feedback" id="coverGenFeedback"></p>
+
+          <div id="coverOutput" class="toolkit-output" hidden>
+            <label class="field">
+              <span>Cover letter — edit freely, then save</span>
+              <textarea id="coverLetterText" rows="16"></textarea>
+            </label>
+            <div class="toolkit-actions">
+              <button type="button" class="btn-primary" id="saveCoverBtn">Save changes</button>
+              <button type="button" class="btn-secondary" id="downloadCoverBtn">Download as .txt</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- INTERVIEW PREP -->
+        <div class="subtab-panel" id="subtab-prep" hidden>
+          <button type="button" class="btn-primary" id="generatePrepBtn">Generate interview prep plan</button>
+          <p class="feedback" id="prepFeedback"></p>
+
+          <div id="prepOutput" class="toolkit-output" hidden>
+            <div class="output-block">
+              <h3>Revision topics</h3>
+              <div class="tag-list" id="prepRevisionTopics"></div>
+            </div>
+            <div class="output-block">
+              <h3>Technical questions</h3>
+              <ul class="entry-list" id="prepTechnical"></ul>
+            </div>
+            <div class="output-block">
+              <h3>Resume-based questions</h3>
+              <ul class="entry-list" id="prepResumeBased"></ul>
+            </div>
+            <div class="output-block">
+              <h3>Project-based questions</h3>
+              <ul class="entry-list" id="prepProjectBased"></ul>
+            </div>
+            <div class="output-block">
+              <h3>Role-specific questions</h3>
+              <ul class="entry-list" id="prepRoleSpecific"></ul>
+            </div>
+            <div class="output-block">
+              <h3>HR / general questions</h3>
+              <ul class="entry-list" id="prepHR"></ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ---------------- DASHBOARD 08: CAREER ASSISTANT ---------------- -->
+    <section class="dashboard-view" id="view-chat" hidden>
+      <h1>Career Assistant</h1>
+      <p class="view-hint">Ask about your matches, skill gaps, application materials, interview prep, or anything else about your internship search — it remembers your profile and this conversation.</p>
+
+      <label class="field" style="max-width: 420px;">
+        <span>Optionally, ask about a specific internship</span>
+        <select id="chatJobSelect">
+          <option value="">General question (no specific job)</option>
+        </select>
+      </label>
+
+      <div class="interview-chat-pane chat-pane-standalone">
+        <div class="chat-log" id="assistantChatLog">
+          <div class="chat-bubble answer assistant-empty">
+            <span class="chat-bubble-label">Career Assistant</span>
+            Hi! I'm your personal career assistant — ask me anything about your internship search, get feedback on your actual resume, or ask me to suggest roles based on what you tell me. I can explain a skill gap, help with application materials, or walk you through interview prep too.
+          </div>
+        </div>
+      </div>
+
+      <form id="chatForm" class="chat-input-row">
+        <textarea id="chatInput" rows="2" placeholder="Ask a question…" required></textarea>
+        <button type="submit" class="btn-primary" id="chatSendBtn">Send</button>
+      </form>
+      <p class="feedback" id="chatFeedback"></p>
+    </section>
+
+  </main>
+
+  <!-- ---------------- SAVED JOBS PANEL ---------------- -->
+  <div class="overlay-panel" id="savedJobsPanel" hidden>
+    <div class="overlay-panel-backdrop" id="savedJobsBackdrop"></div>
+    <div class="overlay-panel-body">
+      <div class="overlay-panel-header">
+        <h2>Saved Internships</h2>
+        <button class="overlay-close-btn" id="closeSavedJobsBtn" type="button" aria-label="Close">✕</button>
+      </div>
+      <p class="view-hint small" id="savedJobsFeedback">Loading…</p>
+      <div class="job-card-list" id="savedJobsList"></div>
+    </div>
+  </div>
+
+  <!-- ---------------- NOTIFICATIONS PANEL ---------------- -->
+  <div class="overlay-panel" id="notificationsPanel" hidden>
+    <div class="overlay-panel-backdrop" id="notificationsBackdrop"></div>
+    <div class="overlay-panel-body">
+      <div class="overlay-panel-header">
+        <h2>Deadline Reminders</h2>
+        <button class="overlay-close-btn" id="closeNotificationsBtn" type="button" aria-label="Close">✕</button>
+      </div>
+      <p class="view-hint small" id="notificationsFeedback">Loading…</p>
+      <div id="notificationsList" class="notification-list"></div>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

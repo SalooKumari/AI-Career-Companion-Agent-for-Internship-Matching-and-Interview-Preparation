@@ -1,0 +1,26 @@
+Ananya Sharma
+Email: ananya.sharma@example.com | Phone: +91-9876543210
+
+EDUCATION
+B.Tech in Computer Science, Indian Institute of Technology, Dhanbad
+2022 - 2026, CGPA: 8.7/10
+
+SKILLS
+Programming: Python, Java, C++
+Frameworks: React, Flask, Node.js
+Tools: Git, Docker, Postman
+Soft Skills: Team Leadership, Communication
+
+EXPERIENCE
+Software Engineering Intern, Zeta Technologies (June 2025 - Aug 2025)
+Built and shipped a REST API used by the internal analytics dashboard,
+reducing average report generation time for the team.
+
+PROJECTS
+Campus Event Finder (React, Node.js, MongoDB)
+A web app that aggregates college event listings and lets students
+filter by category and date. Deployed on Render.
+Link: github.com/ananyasharma/campus-event-finder
+
+Expense Splitter Bot (Python, Telegram Bot API)
+A Telegram bot that splits shared group expenses and tracks who owes whom.

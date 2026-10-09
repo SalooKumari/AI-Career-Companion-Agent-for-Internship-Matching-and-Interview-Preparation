@@ -1,0 +1,3943 @@
+[
+  {
+    "id": 1,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "Explain the difference between a stack and a queue, and give a real use case for each.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 2,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "What is the time complexity of common operations (insert, search, delete) on a hash map, and why?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "Walk me through how you would debug a function that's producing incorrect output intermittently.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "What is the difference between a process and a thread?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "Explain what a REST API is and what makes an API RESTful.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "What's the difference between SQL and NoSQL databases, and when would you choose one over the other?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 7,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "Explain what Git rebase does and how it's different from a merge.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "How would you design a rate limiter for an API?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 9,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "What is Big-O notation, and why does it matter when choosing a data structure or algorithm?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "What's the difference between synchronous and asynchronous code execution?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "How do you approach writing unit tests for a new feature?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "What is a race condition, and how can it be avoided?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "Explain the concept of Big-O for a nested loop over an array of size n.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "What's the difference between an abstract class and an interface?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 15,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "How would you optimize a slow SQL query?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "Describe how a hash table handles collisions.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "What is dependency injection, and why is it useful?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "domain": "Software Engineering",
+    "category": "technical",
+    "question_text": "Walk me through how you'd approach a coding problem you've never seen before.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 19,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 20,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 21,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 22,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 23,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 24,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 25,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 26,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 27,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 28,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 29,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 30,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 31,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 32,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 33,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 34,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 35,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 36,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 37,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 38,
+    "domain": "Software Engineering",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 39,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What's the difference between `let`, `const`, and `var` in JavaScript?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "Explain the CSS box model.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What is the virtual DOM, and why do frameworks like React use it?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "How does the browser's event loop work?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What's the difference between `==` and `===` in JavaScript?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "Explain what CORS is and why browsers enforce it.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What's the difference between server-side rendering and client-side rendering?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "How would you make a website accessible to users relying on screen readers?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What is a promise in JavaScript, and how does it differ from a callback?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "How does responsive design work, and what tools do you use to implement it?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What's the purpose of semantic HTML?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "How would you debug a page that's loading slowly?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 51,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "Explain how React's component lifecycle (or hooks like useEffect) works.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 52,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What's the difference between local storage, session storage, and cookies?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "How do you manage state in a moderately complex frontend application?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What is a single-page application, and what are its trade-offs?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 55,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "How would you optimize the load time of an image-heavy web page?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 56,
+    "domain": "Web Development",
+    "category": "technical",
+    "question_text": "What's your process for making sure a UI matches a design spec closely?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 57,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 58,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 59,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 60,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 61,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 62,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 63,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 64,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 65,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 66,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 67,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 68,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 69,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 70,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 71,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 72,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 73,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 74,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 75,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 76,
+    "domain": "Web Development",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 77,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "Walk me through how you would approach a dataset with a lot of missing values.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 78,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "What's the difference between correlation and causation, and why does it matter in analysis?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 79,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "Explain what a p-value is in plain language.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 80,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "How would you detect and handle outliers in a dataset?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 81,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "What's the difference between a left join and an inner join in SQL?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 82,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "How would you explain a complex analysis finding to a non-technical stakeholder?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 83,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "What's the difference between mean, median, and when each is more appropriate?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 84,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "How would you design an A/B test for a new feature?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 85,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "What is overfitting, and how would you detect it in a model or analysis?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 86,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "Walk me through your process for exploratory data analysis on a new dataset.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 87,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "What's the difference between a bar chart and a histogram, and when would you use each?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 88,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "How would you validate whether a dataset is representative of the population you care about?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 89,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "Explain the difference between supervised and unsupervised learning.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 90,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "How would you handle a dataset that's highly imbalanced (e.g. 99% one class)?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 91,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "What SQL would you write to find the second-highest value in a column?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 92,
+    "domain": "Data Science & Analytics",
+    "category": "technical",
+    "question_text": "How do you decide which visualization to use for a given dataset or question?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 93,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 94,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 95,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 96,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 97,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 98,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 99,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 100,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 101,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 102,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 103,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 104,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 105,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 106,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 107,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 108,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 109,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 110,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 111,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 112,
+    "domain": "Data Science & Analytics",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 113,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "Explain the bias-variance tradeoff.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 114,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "What's the difference between precision and recall, and when would you prioritize one over the other?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 115,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "Walk me through how gradient descent works.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 116,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "What is overfitting, and what are some ways to prevent it?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 117,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "Explain the difference between a CNN and an RNN, and when you'd use each.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 118,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "What's the difference between L1 and L2 regularization?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 119,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "How would you evaluate whether a classification model is good enough to deploy?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 120,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "What is transfer learning, and why is it useful?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 121,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "Explain what an embedding is in the context of NLP.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 122,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "How would you approach a project where you don't have much labeled data?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 123,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "What's the difference between batch and stochastic gradient descent?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 124,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "How do you decide on a train/validation/test split for a project?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 125,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "What is a confusion matrix, and what does each cell tell you?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 126,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "Explain how a decision tree makes a prediction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 127,
+    "domain": "Machine Learning / AI",
+    "category": "technical",
+    "question_text": "What ethical considerations come up when deploying a machine learning model that affects real people?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 128,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 129,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 130,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 131,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 132,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 133,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 134,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 135,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 136,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 137,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 138,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 139,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 140,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 141,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 142,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 143,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 144,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 145,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 146,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 147,
+    "domain": "Machine Learning / AI",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 148,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "What's the difference between a microcontroller and a microprocessor?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 149,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "Explain the difference between polling and interrupt-driven I/O.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 150,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "What is debouncing, and why is it needed for physical buttons?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 151,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "How would you debug a firmware issue that only happens intermittently?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 152,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "What's the difference between UART, SPI, and I2C communication protocols?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 153,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "How do you manage memory constraints on a resource-limited microcontroller?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 154,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "What is an RTOS, and when would you use one instead of bare-metal code?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 155,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "Walk me through how you'd bring up a new PCB for the first time.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 156,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "What's the difference between analog and digital signals, and how does an ADC bridge them?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 157,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "How would you approach power optimization for a battery-powered IoT device?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 158,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "What is a watchdog timer, and why is it used?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 159,
+    "domain": "Embedded Systems / IoT",
+    "category": "technical",
+    "question_text": "How do you handle noisy sensor data in an embedded system?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 160,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 161,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 162,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 163,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 164,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 165,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 166,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 167,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 168,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 169,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 170,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 171,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 172,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 173,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 174,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 175,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 176,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 177,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 178,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 179,
+    "domain": "Embedded Systems / IoT",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 180,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "Walk me through your design process when starting a new mechanical component.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 181,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "What factors do you consider when selecting a material for a part?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 182,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "Explain the difference between stress and strain.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 183,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "How would you approach tolerance stack-up in an assembly with multiple parts?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 184,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "What's the difference between static and dynamic loading?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 185,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "How do you validate a design before committing to manufacturing it?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 186,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "What is FEA (finite element analysis), and what are its limitations?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 187,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "Walk me through GD&T and why it matters for manufacturability.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 188,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "How would you diagnose unexpected vibration in a mechanical assembly?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 189,
+    "domain": "Mechanical Engineering",
+    "category": "technical",
+    "question_text": "What trade-offs do you consider between 3D printing and CNC machining for a prototype?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 190,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 191,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 192,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 193,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 194,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 195,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 196,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 197,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 198,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 199,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 200,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 201,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 202,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 203,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 204,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 205,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 206,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 207,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 208,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 209,
+    "domain": "Mechanical Engineering",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 210,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "Explain Ohm's Law and how you'd use it to size a resistor in a circuit.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 211,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "What's the difference between series and parallel circuits?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 212,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "How would you troubleshoot a circuit that isn't behaving as simulated?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 213,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "What is the purpose of a capacitor in a power supply circuit?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 214,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "Explain the difference between AC and DC, and where each is typically used.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 215,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "What's the difference between open-loop and closed-loop control systems?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 216,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "How would you approach reducing electrical noise in a sensitive circuit?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 217,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "What is impedance, and why does it matter in circuit design?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 218,
+    "domain": "Electrical Engineering",
+    "category": "technical",
+    "question_text": "Walk me through how you'd read and interpret a circuit schematic you haven't seen before.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 219,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 220,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 221,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 222,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 223,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 224,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 225,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 226,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 227,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 228,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 229,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 230,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 231,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 232,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 233,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 234,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 235,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 236,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 237,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 238,
+    "domain": "Electrical Engineering",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 239,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "What's the difference between a container and a virtual machine?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 240,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "Explain what CI/CD is and why it matters.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 241,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "What's the difference between horizontal and vertical scaling?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 242,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "How would you debug a service that's failing intermittently in production?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 243,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "What is infrastructure as code, and what problem does it solve?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 244,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "Explain the difference between blue-green deployment and rolling deployment.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 245,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "What's the purpose of a load balancer?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 246,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "How would you approach setting up monitoring/alerting for a new service?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 247,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "What's the difference between a public and private subnet in cloud networking?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 248,
+    "domain": "Cloud / DevOps",
+    "category": "technical",
+    "question_text": "How do you approach securing secrets (API keys, passwords) in a deployment pipeline?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 249,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 250,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 251,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 252,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 253,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 254,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 255,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 256,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 257,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 258,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 259,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 260,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 261,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 262,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 263,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 264,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 265,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 266,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 267,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 268,
+    "domain": "Cloud / DevOps",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 269,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "Explain the difference between authentication and authorization.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 270,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "What is SQL injection, and how would you prevent it?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 271,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "Walk me through how you'd approach a basic vulnerability assessment of a web application.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 272,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "What's the difference between symmetric and asymmetric encryption?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 273,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "What is a man-in-the-middle attack, and how does HTTPS help prevent it?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 274,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "Explain what the principle of least privilege means and why it matters.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 275,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "What's the difference between a vulnerability, a threat, and a risk?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 276,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "How would you respond if you discovered a security incident in progress?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 277,
+    "domain": "Cybersecurity",
+    "category": "technical",
+    "question_text": "What is cross-site scripting (XSS), and how would you defend against it?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 278,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 279,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 280,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 281,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 282,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 283,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 284,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 285,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 286,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 287,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 288,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 289,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 290,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 291,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 292,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 293,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 294,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 295,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 296,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 297,
+    "domain": "Cybersecurity",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 298,
+    "domain": "Product Management",
+    "category": "technical",
+    "question_text": "Walk me through how you would prioritize a backlog of feature requests.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 299,
+    "domain": "Product Management",
+    "category": "technical",
+    "question_text": "Tell me about a product you use regularly. What would you improve about it, and why?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 300,
+    "domain": "Product Management",
+    "category": "technical",
+    "question_text": "How would you measure whether a new feature was successful after launch?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 301,
+    "domain": "Product Management",
+    "category": "technical",
+    "question_text": "How do you decide what NOT to build?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 302,
+    "domain": "Product Management",
+    "category": "technical",
+    "question_text": "Walk me through how you'd write a one-page spec for a new feature.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 303,
+    "domain": "Product Management",
+    "category": "technical",
+    "question_text": "How would you handle a disagreement between engineering and design about scope?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 304,
+    "domain": "Product Management",
+    "category": "technical",
+    "question_text": "What data would you want before deciding whether to build a requested feature?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 305,
+    "domain": "Product Management",
+    "category": "technical",
+    "question_text": "How do you gather and synthesize user feedback into actionable next steps?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 306,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 307,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 308,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 309,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 310,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 311,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 312,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 313,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 314,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 315,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 316,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 317,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 318,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 319,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 320,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 321,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 322,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 323,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 324,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 325,
+    "domain": "Product Management",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 326,
+    "domain": "UI/UX Design",
+    "category": "technical",
+    "question_text": "Walk me through your design process from a brief to a final mockup.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 327,
+    "domain": "UI/UX Design",
+    "category": "technical",
+    "question_text": "How do you decide when a design needs user testing versus when you can trust your judgment?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 328,
+    "domain": "UI/UX Design",
+    "category": "technical",
+    "question_text": "What makes a design system valuable for a growing product?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 329,
+    "domain": "UI/UX Design",
+    "category": "technical",
+    "question_text": "Tell me about a time feedback significantly changed your design direction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 330,
+    "domain": "UI/UX Design",
+    "category": "technical",
+    "question_text": "How do you balance aesthetics with usability?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 331,
+    "domain": "UI/UX Design",
+    "category": "technical",
+    "question_text": "What accessibility considerations do you build into your designs by default?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 332,
+    "domain": "UI/UX Design",
+    "category": "technical",
+    "question_text": "How would you redesign a feature you find confusing in an app you use often?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 333,
+    "domain": "UI/UX Design",
+    "category": "technical",
+    "question_text": "Walk me through how you'd conduct a quick usability test on a new flow.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 334,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 335,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 336,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 337,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 338,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 339,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 340,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 341,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 342,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 343,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 344,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 345,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 346,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 347,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 348,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 349,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 350,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 351,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 352,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 353,
+    "domain": "UI/UX Design",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 354,
+    "domain": "Marketing",
+    "category": "technical",
+    "question_text": "How would you measure the success of a marketing campaign?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 355,
+    "domain": "Marketing",
+    "category": "technical",
+    "question_text": "Walk me through how you'd plan a campaign for a limited budget.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 356,
+    "domain": "Marketing",
+    "category": "technical",
+    "question_text": "What's the difference between brand marketing and performance marketing?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 357,
+    "domain": "Marketing",
+    "category": "technical",
+    "question_text": "How do you decide which channel to prioritize for a given campaign goal?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 358,
+    "domain": "Marketing",
+    "category": "technical",
+    "question_text": "Tell me about a piece of marketing (ad, campaign, post) you thought was particularly effective, and why.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 359,
+    "domain": "Marketing",
+    "category": "technical",
+    "question_text": "How would you approach growing an audience from scratch on a new channel?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 360,
+    "domain": "Marketing",
+    "category": "technical",
+    "question_text": "What metrics would you track for an email marketing campaign, and why those?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 361,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 362,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 363,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 364,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 365,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 366,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 367,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 368,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 369,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 370,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 371,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 372,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 373,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 374,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 375,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 376,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 377,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 378,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 379,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 380,
+    "domain": "Marketing",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 381,
+    "domain": "Finance",
+    "category": "technical",
+    "question_text": "Walk me through the three financial statements and how they connect.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 382,
+    "domain": "Finance",
+    "category": "technical",
+    "question_text": "What's the difference between gross margin and net margin?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 383,
+    "domain": "Finance",
+    "category": "technical",
+    "question_text": "How would you build a simple financial model for a new product launch?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 384,
+    "domain": "Finance",
+    "category": "technical",
+    "question_text": "What is the time value of money, and why does it matter in financial decisions?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 385,
+    "domain": "Finance",
+    "category": "technical",
+    "question_text": "How would you evaluate whether a company's financials look healthy?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 386,
+    "domain": "Finance",
+    "category": "technical",
+    "question_text": "What's the difference between CapEx and OpEx?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 387,
+    "domain": "Finance",
+    "category": "technical",
+    "question_text": "Walk me through how you'd reconcile a discrepancy in monthly numbers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 388,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 389,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 390,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 391,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 392,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 393,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 394,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 395,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 396,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 397,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 398,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 399,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 400,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 401,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 402,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 403,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 404,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 405,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 406,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 407,
+    "domain": "Finance",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 408,
+    "domain": "Human Resources",
+    "category": "technical",
+    "question_text": "How would you handle a conflict between two team members?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 409,
+    "domain": "Human Resources",
+    "category": "technical",
+    "question_text": "Walk me through how you'd screen resumes for a role with 200+ applicants.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 410,
+    "domain": "Human Resources",
+    "category": "technical",
+    "question_text": "What would you do if a new hire's onboarding wasn't going well?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 411,
+    "domain": "Human Resources",
+    "category": "technical",
+    "question_text": "How do you balance confidentiality with transparency in HR communications?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 412,
+    "domain": "Human Resources",
+    "category": "technical",
+    "question_text": "What questions would you ask to assess culture fit without introducing bias?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 413,
+    "domain": "Human Resources",
+    "category": "technical",
+    "question_text": "How would you handle a situation where a manager wants to make an unfair decision about an employee?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 414,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 415,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 416,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 417,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 418,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 419,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 420,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 421,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 422,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 423,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 424,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 425,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 426,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 427,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 428,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 429,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 430,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 431,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 432,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 433,
+    "domain": "Human Resources",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 434,
+    "domain": "Operations / Supply Chain",
+    "category": "technical",
+    "question_text": "Walk me through how you'd identify a bottleneck in a process.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 435,
+    "domain": "Operations / Supply Chain",
+    "category": "technical",
+    "question_text": "How would you approach forecasting demand for a product with seasonal variation?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 436,
+    "domain": "Operations / Supply Chain",
+    "category": "technical",
+    "question_text": "What metrics would you track to evaluate the health of a supply chain?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 437,
+    "domain": "Operations / Supply Chain",
+    "category": "technical",
+    "question_text": "How would you handle a vendor that's consistently late on deliveries?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 438,
+    "domain": "Operations / Supply Chain",
+    "category": "technical",
+    "question_text": "Walk me through how you'd design a process improvement from problem to rollout.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 439,
+    "domain": "Operations / Supply Chain",
+    "category": "technical",
+    "question_text": "What trade-offs come up between holding more inventory versus less?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 440,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 441,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 442,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 443,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 444,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 445,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 446,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 447,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 448,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 449,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 450,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 451,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 452,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 453,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 454,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 455,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 456,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 457,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 458,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 459,
+    "domain": "Operations / Supply Chain",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 460,
+    "domain": "Biotechnology",
+    "category": "technical",
+    "question_text": "Walk me through the steps of PCR and what each step accomplishes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 461,
+    "domain": "Biotechnology",
+    "category": "technical",
+    "question_text": "How do you ensure reproducibility in a lab experiment?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 462,
+    "domain": "Biotechnology",
+    "category": "technical",
+    "question_text": "What's the difference between in vitro and in vivo studies?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 463,
+    "domain": "Biotechnology",
+    "category": "technical",
+    "question_text": "How would you troubleshoot an experiment that isn't giving the expected results?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 464,
+    "domain": "Biotechnology",
+    "category": "technical",
+    "question_text": "What safety protocols do you consider essential when working with biological samples?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 465,
+    "domain": "Biotechnology",
+    "category": "technical",
+    "question_text": "Walk me through how you'd design a control group for an experiment.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 466,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 467,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 468,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 469,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 470,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 471,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 472,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 473,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 474,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 475,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 476,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 477,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 478,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 479,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 480,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 481,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 482,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 483,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 484,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 485,
+    "domain": "Biotechnology",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 486,
+    "domain": "Civil Engineering",
+    "category": "technical",
+    "question_text": "Walk me through the key considerations when designing a structural element.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 487,
+    "domain": "Civil Engineering",
+    "category": "technical",
+    "question_text": "What's the difference between dead load and live load?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 488,
+    "domain": "Civil Engineering",
+    "category": "technical",
+    "question_text": "How do you approach a site visit to assess project progress?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 489,
+    "domain": "Civil Engineering",
+    "category": "technical",
+    "question_text": "What factors influence material selection for a structural project?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 490,
+    "domain": "Civil Engineering",
+    "category": "technical",
+    "question_text": "How would you handle a discrepancy between the design drawings and site conditions?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 491,
+    "domain": "Civil Engineering",
+    "category": "technical",
+    "question_text": "What's the purpose of a factor of safety in structural design?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 492,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 493,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 494,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 495,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 496,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 497,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 498,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 499,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 500,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 501,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 502,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 503,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 504,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 505,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 506,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 507,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 508,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 509,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 510,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 511,
+    "domain": "Civil Engineering",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 512,
+    "domain": "Content & Writing",
+    "category": "technical",
+    "question_text": "Walk me through your process from a topic idea to a published piece.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 513,
+    "domain": "Content & Writing",
+    "category": "technical",
+    "question_text": "How do you adjust your writing style for different audiences?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 514,
+    "domain": "Content & Writing",
+    "category": "technical",
+    "question_text": "Tell me about a piece you wrote that required research on an unfamiliar topic. How did you approach it?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 515,
+    "domain": "Content & Writing",
+    "category": "technical",
+    "question_text": "How do you handle editorial feedback that you disagree with?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 516,
+    "domain": "Content & Writing",
+    "category": "technical",
+    "question_text": "What makes a headline or opening line effective, in your view?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 517,
+    "domain": "Content & Writing",
+    "category": "technical",
+    "question_text": "How would you fact-check a claim you're not sure about before publishing?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 518,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 519,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 520,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 521,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 522,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 523,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 524,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 525,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 526,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 527,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 528,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 529,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 530,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 531,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 532,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 533,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 534,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 535,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 536,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 537,
+    "domain": "Content & Writing",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  },
+  {
+    "id": 538,
+    "domain": "Sales & Business Development",
+    "category": "technical",
+    "question_text": "Walk me through how you'd research a prospect before reaching out.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 539,
+    "domain": "Sales & Business Development",
+    "category": "technical",
+    "question_text": "How do you handle rejection during outreach, and how does it affect your approach going forward?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 540,
+    "domain": "Sales & Business Development",
+    "category": "technical",
+    "question_text": "What would you do if a prospect went quiet after seeming interested?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 541,
+    "domain": "Sales & Business Development",
+    "category": "technical",
+    "question_text": "How do you tailor your pitch for different types of prospects?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 542,
+    "domain": "Sales & Business Development",
+    "category": "technical",
+    "question_text": "Walk me through how you'd qualify whether a lead is worth pursuing.",
+    "difficulty": "medium"
+  },
+  {
+    "id": 543,
+    "domain": "Sales & Business Development",
+    "category": "technical",
+    "question_text": "What metrics would you track to evaluate your own outreach effectiveness?",
+    "difficulty": "medium"
+  },
+  {
+    "id": 544,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to learn something completely new in a short amount of time. How did you approach it?",
+    "difficulty": null
+  },
+  {
+    "id": 545,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Describe a project you're proud of. What was your specific contribution?",
+    "difficulty": null
+  },
+  {
+    "id": 546,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you disagreed with a teammate or group member. How did you handle it?",
+    "difficulty": null
+  },
+  {
+    "id": 547,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Describe a situation where you had to meet a tight deadline. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 548,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a mistake you made on a project and what you learned from it.",
+    "difficulty": null
+  },
+  {
+    "id": 549,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "How do you prioritize when you have multiple assignments or tasks due around the same time?",
+    "difficulty": null
+  },
+  {
+    "id": 550,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to explain something technical to someone non-technical.",
+    "difficulty": null
+  },
+  {
+    "id": 551,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you received critical feedback. How did you respond?",
+    "difficulty": null
+  },
+  {
+    "id": 552,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "What's a skill you've worked on improving over the past year, and how did you go about it?",
+    "difficulty": null
+  },
+  {
+    "id": 553,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Describe a time you worked in a team where someone wasn't pulling their weight. What did you do?",
+    "difficulty": null
+  },
+  {
+    "id": 554,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to make a decision without all the information you wanted.",
+    "difficulty": null
+  },
+  {
+    "id": 555,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Why are you interested in this field, and what draws you to internships specifically right now?",
+    "difficulty": null
+  },
+  {
+    "id": 556,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to advocate for your own idea or approach when others disagreed.",
+    "difficulty": null
+  },
+  {
+    "id": 557,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a project that didn't go as planned. What would you do differently?",
+    "difficulty": null
+  },
+  {
+    "id": 558,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "How do you handle working on something you're not immediately good at?",
+    "difficulty": null
+  },
+  {
+    "id": 559,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Describe a time you had to ask for help. How did you decide who to ask and how?",
+    "difficulty": null
+  },
+  {
+    "id": 560,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "What's something outside of coursework that you've taught yourself, and why?",
+    "difficulty": null
+  },
+  {
+    "id": 561,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Tell me about a time you had to balance quality with a deadline.",
+    "difficulty": null
+  },
+  {
+    "id": 562,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "How would a teammate from a past project describe working with you?",
+    "difficulty": null
+  },
+  {
+    "id": 563,
+    "domain": "Sales & Business Development",
+    "category": "behavioral",
+    "question_text": "Where do you see the skills from this internship fitting into your longer-term goals?",
+    "difficulty": null
+  }
+]
