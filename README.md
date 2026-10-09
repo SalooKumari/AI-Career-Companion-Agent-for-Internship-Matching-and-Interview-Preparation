@@ -6,6 +6,12 @@
 **Milestone 4 — Application Tracking, Testing/Optimization & Final Polish**
 **App layer — Authentication + multi-dashboard UI**
 
+## Milestones Link
+- [Milestone 1: Foundation & Candidate Understanding](docs/milestone-1.md)
+- [Milestone 2: Knowledge Base, RAG & Matching](docs/milestone-2.md)
+- [Milestone 3: AI Agents Suite](docs/milestone-3.md)
+- [Milestone 4: Application Tracking & Testing](docs/milestone-4.md)
+
 Milestone 4 adds: a full Application Tracking Module (status workflow —
 applied/in-process/interview-called/rejected/completed/withdrawn, filters,
 per-application reminder deadlines), a saved-jobs bookmark feature and a
