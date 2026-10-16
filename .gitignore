@@ -11,7 +11,7 @@ __pycache__/
 *.pyc
 venv/
 .venv/
-
+.streamlit/secrets.toml
 
 # Uploaded resumes (local dev storage)
 backend/uploads/*
