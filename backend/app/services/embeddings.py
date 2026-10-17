@@ -1,32 +1,28 @@
 """
-Local embedding model wrapper (M2.2).
+Local embedding wrapper (M2.2).
 
-Uses sentence-transformers (all-MiniLM-L6-v2) instead of a paid embeddings
-API — it runs fully offline after the first download, needs no extra API
-key, and is more than accurate enough for matching short job-posting/
-resume text. This keeps the RAG pipeline self-contained: the only paid API
-call in the whole project is the OpenAI call for reasoning/extraction.
+Uses the ONNX build of all-MiniLM-L6-v2 that ships with ChromaDB. Same model
+as sentence-transformers, but without torch, so it fits in 512 MB of RAM.
 """
-from functools import lru_cache
-from typing import List
+from chromadb.utils.embedding_functions import ONNXMiniLM_L6_V2
 
-from sentence_transformers import SentenceTransformer
-
-_MODEL_NAME = "all-MiniLM-L6-v2"
+_model = None
 
 
-@lru_cache(maxsize=1)
-def _get_model() -> SentenceTransformer:
-    return SentenceTransformer(_MODEL_NAME)
+def _get_model():
+    global _model
+    if _model is None:
+        _model = ONNXMiniLM_L6_V2()
+    return _model
 
 
-def embed_texts(texts: List[str]) -> List[List[float]]:
-    """Embed a batch of texts. Returns one embedding vector per text, in order."""
-    model = _get_model()
-    vectors = model.encode(texts, show_progress_bar=False, normalize_embeddings=True)
-    return vectors.tolist()
+def embed_texts(texts):
+    """Embed a batch of texts. Returns one vector per text, in order."""
+    if not texts:
+        return []
+    vectors = _get_model()(list(texts))
+    return [[float(x) for x in v] for v in vectors]
 
 
-def embed_text(text: str) -> List[float]:
-    """Embed a single text (e.g. a search query or a student profile summary)."""
+def embed_text(text):
     return embed_texts([text])[0]
