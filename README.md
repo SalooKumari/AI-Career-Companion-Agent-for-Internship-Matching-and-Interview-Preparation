@@ -362,3 +362,4 @@ token (from a `/auth/login` response) to test protected endpoints directly.
   - Database: PostgreSQL / SQLite
   - LLM: Groq API
   - RAG: Vector store + embeddings
+- **Deployed Link:** [Link](https://intense-find-b6263f.netlify.app/)
