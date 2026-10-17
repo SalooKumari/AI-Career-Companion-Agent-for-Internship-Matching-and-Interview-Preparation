@@ -67,4 +67,4 @@ app.include_router(chat_router.router)
 
 @app.api_route("/", methods=["GET", "HEAD"], tags=["health"])
 def health_check():
-    return {"status": "ok", "service": "ai-career-companion-agent", "milestone": 3}
+    return {"status": "ok", "service": "ai-career-companion-agent", "milestone": 1-4}
